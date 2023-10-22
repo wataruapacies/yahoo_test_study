@@ -12,3 +12,15 @@ s = [input() for i in range(n)]
 
 in_str = input().split()
 #横連続文字列をリストとして入力
+
+n , m = map(int,input().split())
+
+a = []
+b = []
+
+for _ in range(m):
+    ai , bi = map(int,input().split())
+    a.append(ai)
+    b.append(bi)
+
+#2組の改行ごとにリスト追加
